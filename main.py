@@ -3,7 +3,7 @@ import numpy as np
 import lda
 
 fields = ["Issue_ID", "Title/Description", "Importance/Type", "Creation_Date", "Resolve_Date"]
-#df = pd.read_csv(raw_input("Enter the name of the dataset to import: "), low_memory=False, usecols=fields)
+df = pd.read_csv(raw_input("Enter the name of the dataset to import: "), low_memory=False, usecols=fields)
 
 def get_year_count(year):
     return len(df[df["Creation_Date"] == str(year)])
