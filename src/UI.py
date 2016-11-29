@@ -1,4 +1,4 @@
-import settings.py
+import Settings.py
 import os
 #based on notes and stuff document
 class UserInterface():
