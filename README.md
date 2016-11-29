@@ -1,6 +1,3 @@
-# TopicModelingVisualizationTool
-Generate topic-specific visualizations with Matplotlib on fitted latent Dirichlet allocation (LDA) models.
-
 ## Description
 Generate topic-specific visualizations with Matplotlib on fitted latent Dirichlet allocation (LDA) models.
 
